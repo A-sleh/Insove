@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flex-X {
+    @apply flex justify-between items-center;
+}
+.btn {
+    @apply rounded-full uppercase tracking-tight flex items-center justify-center transition-all;
+}
+.btn-sm {
+    @apply h-12 px-10
+}
+.btn-lg {
+    @apply h-16 px-12
+}
+.btn-occent {
+    @apply bg-sky-400 text-white hover:bg-sky-300
+}
+.btn-white {
+    @apply bg-white text-gray-400 hover:bg-white;
+}
+.btn-outline {
+    @apply bg-transparent border-2 border-sky-400 text-gray-400 hover:bg-sky-400 hover:border-transparent hover:text-white 
+}
+.input ,.select {
+    @apply w-full rounded-lg h-14 outline-none border border-sky-200 text-gray-400 font-light placeholder:font-light placeholder:text-gray-400
+}
+.input {
+    @apply px-4 
+}
+.section {
+    @apply py-8 xl:py-20 
+}
+.left-quote {
+    @apply before:bg-quoteLeft before:bg-contain before:bg-bottom before:inline-block before:top-0 before:w-10 before:h-10 before:bg-no-repeat
+}
+.right-quote {
+    @apply after:bg-quoteRight after:bg-contain after:bg-bottom after:inline-block after:top-0 after:w-10 after:h-10 after:bg-no-repeat
+}
+.active {
+    @apply bg-sky-400
+}
+.open__faq {
+    @apply h-full 
+}
+.group {
+    @apply transition-all duration-200 ease-in
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
